@@ -1,8 +1,8 @@
 (ns otus-06-hw.cli
-  (:require [otus-06-hw.core :refer [greet]])
+  ;; (:require [otus-06-hw.core :refer [greet]])
   (:gen-class))
 
 (defn -main
   [& args]
-  (greet)
+  ;; (greet)
   (println args))

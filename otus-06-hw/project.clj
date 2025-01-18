@@ -3,5 +3,6 @@
   :main ^:skip-aot otus-06-hw.cli
   :target-path "target/%s"
 
+  :repl-options {:init-ns otus-06-hw.core}
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
